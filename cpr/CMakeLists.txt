@@ -53,3 +53,7 @@ else()
         ${CPR_INCLUDE_DIRS}
         ${CURL_INCLUDE_DIRS})
 endif()
+
+install(TARGETS ${CPR_LIBRARIES}
+  DESTINATION bin
+)
