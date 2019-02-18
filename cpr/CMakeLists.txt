@@ -55,5 +55,5 @@ else()
 endif()
 
 install(TARGETS ${CPR_LIBRARIES}
-  DESTINATION bin
+  DESTINATION lib
 )
